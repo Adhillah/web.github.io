@@ -1,0 +1,87 @@
+body {margin: 0;
+      font-family: "Lucida Grande"}
+a {text-decoration: none;}
+.container {width: 1170px;
+            padding: 0 15px;
+            margin: 0 auto;}
+
+.nav-items {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+.top-wrapper {padding: 180px 0 100px 0;
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzVfGe9wtOodnQlu_g26DelOLGYxI7rcUstA&usqp=CAU);
+  background-size: cover;
+              color: #ffffff;
+              text-align: center;}
+.top-wrapper h1 {opacity: 0.7;
+                 font-size: 50px;
+                 letter-spacing: 5px;
+                 margin-bottom: 10px;}
+.top-wrapper p {opacity: 0.7;
+                margin-bottom: 10px;}
+.btn {padding: 12px 24px;
+      color: #ffffff;
+      display: inline-block;
+      opacity: 0.7;
+      border-radius: 4px;}
+.btn:hover {opacity: 1;}
+.signup {background-color: #0066ff;}
+.facebook {background-color: #0066ff;
+           margin-right: 10px;}
+.twitter {background-color: #0066ff;}
+header {height: 70px;
+        width: 1347px;
+        background-color: #00ff00;
+        padding: 10px 10px;
+        font-size: 20px;}
+.header-left {float: left;}
+.header-right {float: right;
+               background-color: #999966;
+               transition: 0.5s; /*untuk animasi yang berubah setiap saat fungsi hover*/}
+.header-right:hover {background-color: #ff0000;}
+.header-right a {line-height: 70px;
+                 padding-left: 25px;
+                 padding-right: 25px;
+                 color: #ffffff;
+                 display: block;}
+footer {padding: 70 px 0 100px 0;
+        background-color: white;
+        text-align: center;}
+footer h4 {opacity: 0.7;
+           font-size: 20px;
+           letter-spacing: 5px;
+           margin-bottom: 10px;}
+footer p {opacity: 0.7;
+          margin-bottom: 10px;}
+.button-dimensi {padding: 12px 24px;
+                 color: black;
+                 display: inline-block;
+                 opacity: 0.7;
+                 border-radius: 4px;}
+.animasi {transition: 0.1s;
+          -webkit-transition: 0.1s;}
+.tombol-aktif {padding: 10px 40px;
+               border-radius: 10px;
+               float: left;
+               font-family: sans-serif;
+               font-size: 25px;
+               color: white;
+               text-decoration: none;}
+.biru {background-color: #0000ff;
+       border-bottom: 5px solid #6666ff;
+       text-shadow: 0px -2px #6666ff;}
